@@ -1,18 +1,53 @@
+.main {
+  height: 100vh; 
+  color: aqua;
+}
+
+.main-background {
+  background-image: url("../image/49ffd2682143855b5595.jpg");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
 .menu {
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
-  
+  padding: 0px;  
+  list-style-type: none;
 }
 
 .menu-item {
   width: 200px;
   height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
-  background-color: aquamarine;
 }
+
+.image-wok {
+  background-image: url("../image/wok/wok\ 1.png");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-item:hover {
+  animation-name: scale;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scale {
+  0% {
+    width: 200px;
+    height: 200px;
+  }
+
+  100% {
+    width: 400px;
+    height: 400px;
+  }  
+}
+
