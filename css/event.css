@@ -2,3 +2,25 @@
   height: 100vh;
   background-color: darkblue;
 }
+
+.event-background {
+  background-image: url("../image/49ffd2682143855b5595.jpg");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding: 150px 50px 50px 50px;
+}
+
+.event-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px 0px;
+}
+
+.event-item {
+  width: 80%;
+  min-height: 100px;
+  background-color: azure;
+}

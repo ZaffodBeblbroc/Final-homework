@@ -1,6 +1,5 @@
 .main {
   height: 100vh; 
-  color: aqua;
 }
 
 .main-background {
@@ -9,21 +8,24 @@
   background-position: center;
   background-size: cover;
   height: 100%;
+  padding: 150px 50px 50px 50px;
 }
 
 .menu {
-  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
-  padding: 0px;  
+  gap: 40px; 
   list-style-type: none;
 }
 
 .menu-item {
   width: 200px;
   height: 200px;
+}
+
+.content-item {
+  display: none;
 }
 
 .image-wok {
@@ -33,7 +35,7 @@
   background-size: cover;
 }
 
-.menu-item:hover {
+/* .menu-item:hover {
   animation-name: scale;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -49,5 +51,14 @@
     width: 400px;
     height: 400px;
   }  
+} */
+
+.menu-item:hover {
+  transform: scale(2);
+  transition-duration: 2s;
 }
 
+.menu-item:hover .content-item{
+  display: block;
+  transition-duration: 2s;
+}

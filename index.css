@@ -3,8 +3,14 @@
 @import url(./css/event.css);
 @import url(./css/delivery.css);
 
+@font-face {      
+  font-family: 'fon';
+  src:url('./fonts/19192.otf');
+}
+
 * {
   box-sizing: border-box;
+  font-family: fon;
 }
 
 body {
@@ -23,8 +29,16 @@ body {
 
 h2 {
   margin-top: 0px;
+  font-size: 40px;
 }
 
+h4 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 24px;
+}
 
 .footer {
   background-color: chartreuse;
