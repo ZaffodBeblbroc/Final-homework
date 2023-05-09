@@ -1,0 +1,28 @@
+.header {
+  height: 100vh;
+  color: aqua;
+}
+
+.background {
+  background-image: url("../image/2143091ac7955e5785542116c342c11d.jpg");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dropdown {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.dropdown-item {
+  background-color: black;
+}
+

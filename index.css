@@ -1,0 +1,25 @@
+@import url(./css/main.css);
+@import url(./css/header.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.main {
+  background-color: brown;
+}
+
+.footer {
+  background-color: chartreuse;
+}
