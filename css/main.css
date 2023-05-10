@@ -16,49 +16,92 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px; 
+  padding: 0px;
   list-style-type: none;
 }
 
 .menu-item {
   width: 200px;
   height: 200px;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  box-shadow: rgb(251, 255, 0) 0px 0px 20px;
 }
 
 .content-item {
-  display: none;
+  color: rgb(175, 20, 20);  
+  text-shadow: #FC0 1px 0 10px;
+}
+
+.content-item h4 {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.content-item p {
+  margin: 0px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.content-item-bottom {
+  margin-top: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-item-bottom p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.menu-item-button {
+  border-radius: 10px;
+}
+
+.one {
+  background-image: url("../image/wok/Krevetka.jpg");
+}
+
+.two {
+  background-image: url("../image/wok/okun.jpg");
+}
+
+.three {
+  background-image: url("../image/wok/Лапша-с-морепродуктами.jpg");
+}
+
+.four {
+  background-image: url("../image/wok/Со свининой.jpg");
+}
+
+.five {
+  background-image: url("../image/wok/Удон.jpg");
+}
+
+.six {
+  background-image: url("../image/wok/Острая.jpg");
+}
+
+.seven {
+  background-image: url("../image/wok/Острая 2.jpg");
+}
+
+.eight {
+  background-image: url("../image/wok/С овощами.jpg");
 }
 
 .image-wok {
-  background-image: url("../image/wok/wok\ 1.png");
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-/* .menu-item:hover {
-  animation-name: scale;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes scale {
-  0% {
-    width: 200px;
-    height: 200px;
-  }
-
-  100% {
-    width: 400px;
-    height: 400px;
-  }  
-} */
-
 .menu-item:hover {
-  transform: scale(2);
-  transition-duration: 2s;
-}
-
-.menu-item:hover .content-item{
-  display: block;
+  transform: scale(2.0);
   transition-duration: 2s;
 }

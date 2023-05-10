@@ -13,6 +13,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.header-background h1 {
+  margin: 0px;
+  font-size: 180px;
+  font-weight: 900;
+  text-shadow: rgb(255, 0, 0) 1px 0 15px;
+}
+
+.header-background p {
+  margin: 0px 40px;
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: rgb(255, 0, 0) 1px 0 15px;
+
 }
 
 .container .dropdown {
@@ -42,5 +59,4 @@
 .dropdown-menu:hover .dropdown-item, .dropdown-item:hover{
   color: rgba(0, 0, 0, 1);
 }
-
 
