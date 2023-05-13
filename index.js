@@ -1,69 +1,72 @@
-// let num = 3;
-
-// function changeItem() {
-//   document.getElementById('block').style.zIndex = num + 1;
-// }
-
-// function rechangeItem() {
-//   document.getElementById('block').style.zIndex = 0;
-// }
-
-// document.getElementById('one').onmouseover=function() {changeItem()};
-// document.getElementById('one').onmouseout=function() {rechangeItem()};
-
-
-
-// function changeItem2() {
-//   document.getElementById('blockQWE').style.zIndex = num +1 ;
-// }
-
-// function rechangeItem2() {
-//   document.getElementById('blockQWE').style.zIndex = 0;
-// }
-
-// document.getElementById('two').onmouseover=function() {changeItem2()};
-// document.getElementById('two').onmouseout=function() {rechangeItem2()};
-
-
-
-// function changeItem3() {
-//   document.getElementById('blockASD').style.zIndex = num + 1;
-// }
-
-// function rechangeItem3() {
-//   document.getElementById('blockASD').style.zIndex = 0;
-// }
-
-// document.getElementById('three').onmouseover=function() {changeItem3()};
-// document.getElementById('three').onmouseout=function() {rechangeItem3()};
-
-
-
-
-
-
 let num = 3;
 
-function changeItem() {
-  document.getElementById('block').style.zIndex = num;
-  num = num + 1;
+function changeItem1() {
+  document.getElementById('block-one').style.zIndex = num;
 }
-
-document.getElementById('one').onclick=function() {changeItem()};
+function rechangeItem1() {
+  document.getElementById('block-one').style.zIndex = 0;
+}
+document.getElementById('one').onclick=function() {changeItem1(), rechangeItem2(), rechangeItem3(), rechangeItem4(), rechangeItem5(), rechangeItem6(), rechangeItem7(), rechangeItem8() };
 
 
 function changeItem2() {
-  document.getElementById('blockQWE').style.zIndex = num;
-  num = num + 1;
+  document.getElementById('block-two').style.zIndex = num;
 }
+function rechangeItem2() {
+  document.getElementById('block-two').style.zIndex = 0;
+}
+document.getElementById('two').onclick=function() {changeItem2(), rechangeItem1(), rechangeItem3(), rechangeItem4(), rechangeItem5(), rechangeItem6(), rechangeItem7(), rechangeItem8()};
 
-document.getElementById('two').onclick=function() {changeItem2()};
+
+function changeItem3() {
+  document.getElementById('block-three').style.zIndex = num;
+}
+function rechangeItem3() {
+  document.getElementById('block-three').style.zIndex = 0;
+}
+document.getElementById('three').onclick=function() {changeItem3(), rechangeItem2(), rechangeItem1(), rechangeItem4(), rechangeItem5(), rechangeItem6(), rechangeItem7(), rechangeItem8()};
 
 
+function changeItem4() {
+  document.getElementById('block-four').style.zIndex = num;
+}
+function rechangeItem4() {
+  document.getElementById('block-four').style.zIndex = 0;
+}
+document.getElementById('four').onclick=function() {changeItem4(), rechangeItem2(), rechangeItem3(), rechangeItem1(), rechangeItem5(), rechangeItem6(), rechangeItem7(), rechangeItem8()};
 
 
-// function changeItem3() {
-//   document.getElementById('blockASD').style.zIndex = num;
-// }
+function changeItem5() {
+  document.getElementById('block-five').style.zIndex = num;
+}
+function rechangeItem5() {
+  document.getElementById('block-five').style.zIndex = 0;
+}
+document.getElementById('five').onclick=function() {changeItem5(), rechangeItem2(), rechangeItem3(), rechangeItem4(), rechangeItem1(), rechangeItem6(), rechangeItem7(), rechangeItem8()};
 
-// document.getElementById('three').onclick=function() {changeItem3()};
+
+function changeItem6() {
+  document.getElementById('block-six').style.zIndex = num;
+}
+function rechangeItem6() {
+  document.getElementById('block-six').style.zIndex = 0;
+}
+document.getElementById('six').onclick=function() {changeItem6(), rechangeItem2(), rechangeItem3(), rechangeItem4(), rechangeItem5(), rechangeItem1(), rechangeItem7(), rechangeItem8()};
+
+
+function changeItem7() {
+  document.getElementById('block-seven').style.zIndex = num;
+}
+function rechangeItem7() {
+  document.getElementById('block-seven').style.zIndex = 0;
+}
+document.getElementById('seven').onclick=function() {changeItem7(), rechangeItem2(), rechangeItem3(), rechangeItem4(), rechangeItem5(), rechangeItem6(), rechangeItem1(), rechangeItem8()};
+
+
+function changeItem8() {
+  document.getElementById('block-eight').style.zIndex = num;
+}
+function rechangeItem8() {
+  document.getElementById('block-eight').style.zIndex = 0;
+}
+document.getElementById('eight').onclick=function() {changeItem8(), rechangeItem2(), rechangeItem3(), rechangeItem4(), rechangeItem5(), rechangeItem6(), rechangeItem7(), rechangeItem1()};

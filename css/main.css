@@ -27,8 +27,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px 10px; 
-  padding: 20px 0px;
+  gap: 10px 10px; 
+  padding: 30px 0px;
   margin: 0px;
   list-style-type: none;
 }
@@ -38,14 +38,12 @@
   height: 140px;
   display: flex;
   flex-direction: column;
-  align-items: end;
   justify-content: space-between;
+  align-items: center;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 12px;
   text-align: end;  
 }
-
-
 
 .menu-item-title {  
   margin: 0px;
@@ -54,9 +52,10 @@
   color: rgb(175, 20, 20);  
 }
 
-.menu-item-button {
-  width: 100px;
-  border-radius: 10px;
+.menu-item-button {  
+  width: 120px;
+  border-radius: 0px 0px 70px 0px;
+  text-align: left;
 }
 
 .zero { 

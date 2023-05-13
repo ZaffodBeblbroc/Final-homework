@@ -35,7 +35,7 @@
   width: 100%;
   max-width: inherit;
   position: fixed;
-  z-index: 100000;
+  z-index: 10;
 }
 
 .dropdown-menu {
