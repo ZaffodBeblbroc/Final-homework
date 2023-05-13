@@ -1,0 +1,29 @@
+.main-background {
+  display: grid;
+  grid-template-columns:300px auto;
+  grid-template-rows: 50px auto;
+}
+
+.main-title {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.content {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.content-size {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:  auto;
+}
+
+.block {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+

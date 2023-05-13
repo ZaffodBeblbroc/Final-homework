@@ -8,59 +8,60 @@
   background-position: center;
   background-size: cover;
   height: 100%;
-  padding: 150px 50px 50px 50px;
+  padding: 150px 30px 50px 30px;
+}
+
+.content-size {
+  width: 100%;
+  padding: 0px 0px 0px 30px;
+}
+
+.block {  
+  height: 700px; 
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .menu {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px; 
-  padding: 0px;
+  gap: 30px 10px; 
+  padding: 20px 0px;
+  margin: 0px;
   list-style-type: none;
 }
 
 .menu-item {
-  width: 200px;
-  height: 200px;
-  padding: 10px;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 12px;
-  box-shadow: rgb(251, 255, 0) 0px 0px 20px;
+  text-align: end;  
 }
 
-.content-item {
+
+
+.menu-item-title {  
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 700;
   color: rgb(175, 20, 20);  
-  text-shadow: #FC0 1px 0 10px;
 }
-
-.content-item h4 {
-  margin: 0px;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.content-item p {
-  margin: 0px;
-  font-size: 10px;
-  font-weight: 700;
-}
-
-.content-item-bottom {
-  margin-top: 115px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.content-item-bottom p {
-  font-size: 20px;
-  font-weight: 700;
-}
-
 
 .menu-item-button {
+  width: 100px;
   border-radius: 10px;
+}
+
+.zero { 
+  background-image: url("../image/Lapsha.jpg");
+  z-index: 3;
 }
 
 .one {
@@ -99,9 +100,4 @@
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.menu-item:hover {
-  transform: scale(2.0);
-  transition-duration: 2s;
 }
