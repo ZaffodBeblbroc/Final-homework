@@ -1,0 +1,16 @@
+.contacts-menu-item {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.contacts-menu .telefon {
+  list-style-image: url(../image/footer/телефон.png);
+}
+
+.contacts-menu .mail {
+  list-style-image: url(../image/footer/почта.png);
+}
+
+.contacts-menu .map {
+  list-style-image: url(../image/footer/карта.png);
+}
