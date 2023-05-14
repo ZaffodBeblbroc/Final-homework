@@ -1,5 +1,5 @@
 .main {
-  height: 100vh; 
+ height: 100vh; 
 }
 
 .main-background {
@@ -7,20 +7,8 @@
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100%;
-  padding: 150px 30px 50px 30px;
-}
-
-.content-size {
-  width: 100%;
-  padding: 0px 0px 0px 30px;
-}
-
-.block {  
-  height: 700px; 
-  background-size: no-repeat;
-  background-position: center;
-  background-size: cover;
+  min-height: 100%;
+  padding: 150px 30px 30px 30px;
 }
 
 .menu {
@@ -48,14 +36,80 @@
 .menu-item-title {  
   margin: 0px;
   font-size: 24px;
-  font-weight: 700;
-  color: rgb(175, 20, 20);  
+  font-weight: 700; 
+  color: brown;
 }
 
 .menu-item-button {  
   width: 120px;
   border-radius: 0px 0px 70px 0px;
   text-align: left;
+}
+
+.content-size {
+  width: 100%;
+  padding: 0px 0px 0px 30px;
+}
+
+.block {  
+  height: 700px; 
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content-item {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 50px 50px;
+  grid-template-columns: 1fr 80px;
+  color: chartreuse;
+}
+
+.content-item-title {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 20px 40px;
+  font-size: 60px;  
+}
+
+.content-iten-paragraph {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-self: end;
+  margin: 0px 20px;
+  font-size: 30px;
+}
+
+.content-calory {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-self: end;
+  margin: 0px 20px;
+  font-size: 20px;
+}
+
+.content-item-button {
+  grid-row-start: 5;
+  align-self: center;
+  margin: 10px;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 80%;
+  border-top-width: 3px;
+  border-left-width: 100px;
+  border-bottom-width: 3px;
+  border-bottom-color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-align: left;
+}
+
+.price {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  font-size: 30px;
 }
 
 .zero { 
@@ -72,7 +126,7 @@
 }
 
 .three {
-  background-image: url("../image/wok/Лапша-с-морепродуктами.jpg");
+  background-image: url("../image/wok/С морепродуктами.jpg");
 }
 
 .four {

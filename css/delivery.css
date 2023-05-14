@@ -10,3 +10,14 @@
   height: 100%;
   padding: 150px 50px 50px 50px;
 }
+
+.delivery-content * {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.map {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
