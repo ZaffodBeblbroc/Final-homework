@@ -4,6 +4,7 @@
 @import url(./css/delivery.css);
 @import url(./css/footer.css);
 @import url(./css/main-grid.css);
+@import url(./css/media/mobile.css) screen and (max-width: 600px);
 
 @font-face {      
   font-family: 'fon';

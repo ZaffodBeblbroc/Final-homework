@@ -1,0 +1,97 @@
+.header-background h1 {
+  margin: 0px;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.header-background p {
+  margin: 0px 40px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.container .dropdown {
+  width: 100%;
+  max-width: inherit;
+  position: fixed;
+}
+
+.dropdown-menu {
+  height: 100px;
+}
+
+.dropdown-item {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.menu {
+  display: none;
+}
+
+.main-background {
+  display: block;
+}
+
+.content-size {
+  display: block;
+  padding: 0px;
+}
+
+.zero {
+  display: none;
+}
+
+.block {  
+  height: 550px; 
+  margin: 10px auto;
+  box-shadow: none;
+}
+
+.content-item-title {
+  margin: 20px 40px;
+  font-size: 40px;  
+}
+
+.content-iten-paragraph {
+  font-size: 26px;
+}
+
+.content-calory {
+  font-size: 18px;
+}
+
+.event-background {
+  background-image: url("../image/49ffd2682143855b5595.jpg");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  padding: 150px 50px 50px 50px;
+  background: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgba(50,50,50,1) 0%, rgba(0,0,0,1) 99.4% );
+}
+
+.event-content {
+  gap: 50px 0px;
+}
+
+.event-item {
+  width: 90%;
+  background-color: rgb(102, 202, 202);
+}
+
+.event-item-title {
+  font-size: 30px;
+}
+
+.delivery-background {
+  min-height: 100%;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.footer {
+  color: aliceblue;
+}

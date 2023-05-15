@@ -48,10 +48,9 @@
 }
 
 .dropdown-item {
-  width: 100px;
-  height: 40px;
-  font-size: 25px;
+  font-size: 50px;
   text-align: center;
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.1);
   background-color: rgba(0, 0, 0, 0);
 }

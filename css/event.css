@@ -1,16 +1,12 @@
-.event {
-  height: 100vh;
-}
 
 .event-background {
   background-image: url("../image/49ffd2682143855b5595.jpg");
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100%;
+  min-height: 100vh;
   padding: 150px 50px 50px 50px;
-
-  background: radial-gradient(circle, rgba(180,50,50,1) 10%, rgba(0,0,0,1) 90%);
+  background: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgba(50,50,50,1) 0%, rgba(0,0,0,1) 99.4% );
 }
 
 .event-content {
@@ -23,8 +19,16 @@
 .event-item {
   width: 80%;
   min-height: 100px;
-  background-color: azure;
+  background-color: rgb(102, 202, 202);
   border: 4px solid black;
+}
+
+.event-item:hover {
+  transform: scale(1.2);
+  transition-duration: 1.5s;
+  background-color: rgb(102, 102, 102);
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(255, 0, 0) 1px 0 15px;
 }
 
 .event-item-title {

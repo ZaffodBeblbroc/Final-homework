@@ -1,16 +1,11 @@
-/* .main {
-  min-height: 100vh;   
-} */
-
 .main-background {
   background-image: url("../image/49ffd2682143855b5595.jpg");
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100%;
   padding: 150px 30px 30px 30px;  
-
-  background: radial-gradient(circle, rgba(180,50,50,1) 10%, rgba(0,0,0,1) 90%);;
+  min-height: 100vh;
+  background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgba(50,50,50,1) 0%, rgba(0,0,0,1) 99.4% );
 }
 
 .menu {
@@ -51,7 +46,7 @@
 
 .content-size {
   width: 100%;
-  padding: 0px 0px 0px 30px;
+  padding: 30px 0px 0px 30px;
 }
 
 .block {  
@@ -101,17 +96,25 @@
 
 .content-item-button {
   grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
   align-self: center;
   margin: 10px;
+  background: rgba(200, 200, 200);
   border-top-right-radius: 15%;
   border-bottom-right-radius: 80%;
   border-top-width: 3px;
   border-left-width: 100px;
   border-bottom-width: 3px;
-  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(100, 100, 100);
   font-size: 20px;
   font-weight: 700;
   text-align: left;
+}
+
+.content-item-button:hover {
+  background: rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);
 }
 
 .price {
