@@ -21,9 +21,25 @@
 }
 
 .dropdown-item {
-  font-size: 30px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 1);
 }
+
+.price {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  text-align: right;
+  font-size: 20px;
+}
+
+.content-item-button {
+   border-top-width: 3px;
+  border-left-width: 3px;
+  border-bottom-width: 3px; 
+  font-size: 16px;
+  font-weight: 400;
+}
+
 
 .menu {
   display: none;
@@ -49,16 +65,17 @@
 }
 
 .content-item-title {
-  margin: 20px 40px;
-  font-size: 40px;  
+  margin: 20px 5px;
+  font-size: 30px;  
 }
 
 .content-iten-paragraph {
-  font-size: 26px;
+  font-size: 20px;
+  align-self: center;
 }
 
 .content-calory {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .event-background {
